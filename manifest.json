@@ -1,0 +1,56 @@
+{
+  "name": "ADManager Plus",
+  "author": {
+    "name": "ManageEngine",
+    "email": "support@admanagerplus.com",
+    "url": "https://www.manageengine.com/products/ad-manager/"
+  },
+  "defaultLocale": "en",
+  "private": false,
+  "location": {
+    "support": {
+		"ticket_sidebar":
+		{
+			"url": "assets/html/management/index.html"
+		},
+		"nav_bar":
+		{
+			"url": "assets/html/configurations/index.html"
+		},
+		"top_bar":
+		{
+		
+			"url": "assets/html/menu/index.html"
+		}
+    }
+  },
+  "singleInstall": true,
+  "parameters": [
+		{
+			"name": "admanagerServerUrl",
+			"type": "hidden"
+		},
+		{
+			"name": "admanagerUserName",
+			"type": "hidden"
+		},
+		{
+			"name": "admanagerAuthToken",
+			"type": "hidden"
+		},
+		{
+			"name": "admanagerDomainName",
+			"type": "hidden"
+		},
+		{
+			"name": "admanagerDomainList",
+			"type": "hidden"
+		},
+		{
+			"name": "admanagerLoginDomainList",
+			"type": "hidden"
+		}
+	],
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}
