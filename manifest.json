@@ -11,46 +11,29 @@
     "support": {
 		"ticket_sidebar":
 		{
-			"url": "assets/html/management/index.html"
+			"url": "assets/html/management/admp-ticket-sidebar-index.html"
 		},
 		"nav_bar":
 		{
-			"url": "assets/html/configurations/index.html"
-		},
-		"top_bar":
-		{
-		
-			"url": "assets/html/menu/index.html"
+			"url": "assets/html/configurations/admp-index.html"
 		}
     }
   },
   "singleInstall": true,
   "parameters": [
 		{
-			"name": "admanagerServerUrl",
+			"name": "admpConfiguration",
 			"type": "hidden"
 		},
 		{
-			"name": "admanagerUserName",
+			"name": "admpDomainList",
 			"type": "hidden"
 		},
 		{
-			"name": "admanagerAuthToken",
-			"type": "hidden"
-		},
-		{
-			"name": "admanagerDomainName",
-			"type": "hidden"
-		},
-		{
-			"name": "admanagerDomainList",
-			"type": "hidden"
-		},
-		{
-			"name": "admanagerLoginDomainList",
+			"name": "admpZendeskMapping",
 			"type": "hidden"
 		}
 	],
-  "version": "1.0",
+  "version": "1.1",
   "frameworkVersion": "2.0"
 }
